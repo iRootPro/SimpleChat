@@ -16,7 +16,7 @@ function App() {
         dispatch(setIsInit())
     }
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
                 <Switch>
                     <Route exact path={'/'}><UnRegister/></Route>
