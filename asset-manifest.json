@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/iRootPro.github.io/SimpleChat/static/css/main.bcdf3f5a.chunk.css",
+    "main.js": "/iRootPro.github.io/SimpleChat/static/js/main.5bc98a4a.chunk.js",
+    "main.js.map": "/iRootPro.github.io/SimpleChat/static/js/main.5bc98a4a.chunk.js.map",
+    "runtime-main.js": "/iRootPro.github.io/SimpleChat/static/js/runtime-main.98dfe5db.js",
+    "runtime-main.js.map": "/iRootPro.github.io/SimpleChat/static/js/runtime-main.98dfe5db.js.map",
+    "static/js/2.f381ed5f.chunk.js": "/iRootPro.github.io/SimpleChat/static/js/2.f381ed5f.chunk.js",
+    "static/js/2.f381ed5f.chunk.js.map": "/iRootPro.github.io/SimpleChat/static/js/2.f381ed5f.chunk.js.map",
+    "index.html": "/iRootPro.github.io/SimpleChat/index.html",
+    "static/css/main.bcdf3f5a.chunk.css.map": "/iRootPro.github.io/SimpleChat/static/css/main.bcdf3f5a.chunk.css.map",
+    "static/js/2.f381ed5f.chunk.js.LICENSE.txt": "/iRootPro.github.io/SimpleChat/static/js/2.f381ed5f.chunk.js.LICENSE.txt",
+    "static/media/remove.aaa025ca.jpg": "/iRootPro.github.io/SimpleChat/static/media/remove.aaa025ca.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98dfe5db.js",
+    "static/js/2.f381ed5f.chunk.js",
+    "static/css/main.bcdf3f5a.chunk.css",
+    "static/js/main.5bc98a4a.chunk.js"
+  ]
+}
