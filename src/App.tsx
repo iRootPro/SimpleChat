@@ -16,14 +16,14 @@ function App() {
         dispatch(setIsInit())
     }
     return (
-        <div>
-            <Router>
+        <Router>
+            <div>
                 <Switch>
                     <Route exact path={'/'}><UnRegister/></Route>
                     <Route path={'/network'}><Network/></Route>
                 </Switch>
-            </Router>
-        </div>
+            </div>
+        </Router>
     );
 }
 
