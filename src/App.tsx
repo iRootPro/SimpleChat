@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import UnRegister from "./components/UnRegister";
+import Network from "./components/Network";
+import {useDispatch, useSelector} from "react-redux";
+import {RootStateType} from "./app/store";
+import {appInitTypeState, setIsInit} from "./reducers/app";
+import {setMessages} from "./reducers/user";
+import messagesDb from './db/messages.json'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const {isInit} = useSelector<RootStateType, appInitTypeState>(state => state.app)
+    const dispatch = useDispatch()
+    if (!isInit) {
+        dispatch(setMessages(messagesDb))
+        dispatch(setIsInit())
+    }
+    return (
+        <div>
+            <Router>
+                <Switch>
+                    <Route exact path={'/'}><UnRegister/></Route>
+                    <Route path={'/network'}><Network/></Route>
+                </Switch>
+            </Router>
+        </div>
+    );
 }
 
 export default App;

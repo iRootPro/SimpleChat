@@ -1,0 +1,54 @@
+.wrap {
+    margin: 10px;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.time {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.editModal {
+    width: 700px;
+    height: 200px;
+    -webkit-box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.inputEdit {
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.buttonModal {
+    margin-top: 30px;
+}
+.modalBtn {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}

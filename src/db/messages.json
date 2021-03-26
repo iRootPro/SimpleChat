@@ -1,0 +1,30 @@
+[
+  {
+    "message": "Привет!",
+    "chat": "work",
+    "author": "Ivan",
+    "time": "10:51",
+    "id": "1"
+  },
+  {
+    "message": "Привет, как дела?",
+    "chat": "work",
+    "author": "Petr",
+    "time": "10:53",
+    "id": "2"
+  },
+  {
+    "message": "Привет, ну что пофлудим?",
+    "chat": "flood",
+    "author": "Ivan",
+    "time": "12:00",
+    "id": "3"
+  },
+  {
+    "message": "Давай, обед же",
+    "chat": "flood",
+    "author": "Petr",
+    "time": "12:01",
+    "id": "4"
+  }
+]

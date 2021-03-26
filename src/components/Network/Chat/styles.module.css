@@ -1,0 +1,78 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cccccc;
+    width: 800px;
+    height: 800px;
+
+    -webkit-box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    box-shadow: 6px 2px 29px -4px rgba(0, 0, 0, 0.67);
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.chats {
+    background-color: #1b6fbe;
+    padding: 15px;
+    position: fixed;
+    width: 771px;
+    top: 168px;
+}
+
+.chatName {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.chatNameActive {
+    color: #04ed04;
+    left: 585px;
+}
+
+.logout {
+    cursor: pointer;
+    position: relative;
+    left: 585px;
+    color: #dbdb13;
+}
+
+.nameUser {
+    position: relative;
+    left: 622px;
+    color: #dbdb13;
+    font-weight: 600;
+}
+
+.messageBlock {
+    margin-top: 50px;
+}
+
+.input[type=text] {
+    width: 300px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+}
+
+.inputBlock {
+    margin-top: auto;
+}
+
+.inputMessage {
+    width: 786px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+}
